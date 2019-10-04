@@ -1,0 +1,146 @@
+body {
+  background-color: rgb(234, 234, 234) !important;
+}
+
+/*timepicker style*/
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100px;
+}
+
+.react-datepicker__input-container {
+  width: inherit;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+/*home page styles*/
+
+.masthead {
+  background-image: linear-gradient(
+    135deg,
+    
+    #150734 ,
+    #0F2557 ,
+    #28559A ,
+    #3778C2 ,
+    #4B9FE1 ,
+    #63BCE5 ,
+    #7ED5EA 
+  ) !important;
+}
+
+.masthead.segment {
+  min-height: 700px;
+  padding: 1em 0 !important;
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+  margin-top: 3em;
+  margin-bottom: 0;
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+.footer.segment {
+  padding: 5em 0;
+}
+
+.secondary.inverted.pointing.menu {
+  border: none;
+}
+
+/*end home page styles*/
+
+/* navbar styles */
+
+.ui.menu .item img.logo {
+  margin-right: 1.5em;
+}
+
+.ui.fixed.menu {
+  background-image: linear-gradient(
+    135deg,
+    indigo 0%,
+    #44449B 69%,
+    #1181B2 89%
+  ) !important;
+}
+
+.ui.main.container,
+.main.segment {
+  margin-top: 7em;
+}
+
+.ui.center.aligned.segment.attendance-preview {
+  background-color: #f5f5f5;
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.ui.menu .item > img:not(.ui) {
+  margin-right: 1.5em !important;
+}
+
+.ui.menu:not(.vertical) .item > .button {
+  margin-left: 0.5em;
+}
+
+/*chat comments*/
+
+.ui.comments .comment .comments {
+  padding-bottom: 0 !important;
+  padding-left: 2em !important;
+}
+
+/*homepage*/
+.calendar {
+  max-width: 900px;
+  margin: 40px auto;
+}
+.ccontent {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
