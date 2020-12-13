@@ -1,6 +1,6 @@
 {
   "name": "PCology",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -4850,9 +4850,9 @@
       }
     },
     "extend": {
-      "version": "3.0.1",
-      "resolved": "https://registry.npmjs.org/extend/-/extend-3.0.1.tgz",
-      "integrity": "sha1-p1Xqe8Gt/MWjHOfnYtuq3F5jZEQ="
+      "version": "3.0.2",
+      "resolved": "https://registry.npmjs.org/extend/-/extend-3.0.2.tgz",
+      "integrity": "sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g=="
     },
     "extend-shallow": {
       "version": "3.0.2",
@@ -5201,11 +5201,6 @@
             "lru-cache": "^4.0.1",
             "which": "^1.2.9"
           }
-        },
-        "extend": {
-          "version": "3.0.2",
-          "resolved": "https://registry.npmjs.org/extend/-/extend-3.0.2.tgz",
-          "integrity": "sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g=="
         },
         "fast-deep-equal": {
           "version": "2.0.1",
@@ -6227,12 +6222,6 @@
         "node-fetch": "^2.2.0"
       },
       "dependencies": {
-        "extend": {
-          "version": "3.0.2",
-          "resolved": "https://registry.npmjs.org/extend/-/extend-3.0.2.tgz",
-          "integrity": "sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==",
-          "optional": true
-        },
         "node-fetch": {
           "version": "2.3.0",
           "resolved": "https://registry.npmjs.org/node-fetch/-/node-fetch-2.3.0.tgz",
@@ -11491,11 +11480,6 @@
           "version": "2.0.3",
           "resolved": "https://registry.npmjs.org/eventemitter3/-/eventemitter3-2.0.3.tgz",
           "integrity": "sha1-teEHm1n7XhuidxwKmTvgYKWMmbo="
-        },
-        "extend": {
-          "version": "3.0.2",
-          "resolved": "https://registry.npmjs.org/extend/-/extend-3.0.2.tgz",
-          "integrity": "sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g=="
         }
       }
     },
@@ -11507,13 +11491,6 @@
         "deep-equal": "^1.0.1",
         "extend": "^3.0.2",
         "fast-diff": "1.1.2"
-      },
-      "dependencies": {
-        "extend": {
-          "version": "3.0.2",
-          "resolved": "https://registry.npmjs.org/extend/-/extend-3.0.2.tgz",
-          "integrity": "sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g=="
-        }
       }
     },
     "raf": {
@@ -14396,11 +14373,6 @@
           "requires": {
             "ms": "^2.1.1"
           }
-        },
-        "extend": {
-          "version": "3.0.2",
-          "resolved": "https://registry.npmjs.org/extend/-/extend-3.0.2.tgz",
-          "integrity": "sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g=="
         },
         "fast-deep-equal": {
           "version": "2.0.1",
